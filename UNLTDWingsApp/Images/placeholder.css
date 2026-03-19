@@ -1,0 +1,51 @@
+/* UNLTD Wings - Image Placeholders
+   Since actual images are not included, menu items will use Bootstrap icons instead.
+   
+   HOW TO ADD REAL IMAGES:
+   1. Add your image files to this folder (Images/)
+   2. Recommended formats: .jpg, .png, .webp
+ 3. Recommended size: 200x200px or 400x400px
+   4. Update the ImageUrl column in the Menu_Item database table
+   
+   EXPECTED FILES (based on database seed data):
+   - wings-set-a.jpg
+   - wings-set-b.jpg
+ - wings-set-c.jpg
+   - wings-solo.jpg
+   - wings-12.jpg
+   - chicken-poppers.jpg
+   - chicken-fingers.jpg
+   - carbonara.jpg
+   - spaghetti.jpg
+   - combo-wings-fries.jpg
+   - family-platter.jpg
+   - fries-regular.jpg
+   - fries-loaded.jpg
+   - coleslaw.jpg
+   - rice.jpg
+   - gravy.jpg
+   - iced-tea.jpg
+   - coke.jpg
+   - sprite.jpg
+   - water.jpg
+   
+   You can also add:
+   - logo.png (for header branding)
+   - background.jpg (for login page background)
+*/
+
+/* Placeholder image styles - these use Bootstrap Icons instead */
+.placeholder-img {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, #5E2D10 0%, #8B4513 100%);
+    display: flex;
+    justify-content: center;
+  align-items: center;
+    border-radius: 10px;
+}
+
+.placeholder-img i {
+    font-size: 2rem;
+    color: white;
+}
